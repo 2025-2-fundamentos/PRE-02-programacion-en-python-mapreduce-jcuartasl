@@ -15,6 +15,8 @@ from toolz.itertoolz import concat, pluck
 def copy_raw_files_to_input_folder(n):
     """Generate n copies of the raw files in the input folder"""
 
+    create_directory("files/input")
+
 
 
 def load_input(input_directory):
